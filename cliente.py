@@ -24,7 +24,7 @@ import urllib.request
 PUERTO = 8080
 REPETICIONES = 200      # cuantas peticiones generar
 ITERACIONES = 100000    # carga de trabajo en el servidor
-MEGABYTES = 50          # tamano de la respuesta
+MEGABYTES = 20          # tamano de la respuesta
 PAUSA = 0.5             # segundos entre peticiones (separa las
                         # transacciones en la captura y facilita
                         # emparejarlas a mano)
